@@ -1,5 +1,3 @@
-## s3 bucket
-```
 provider "aws" {
   region = "us-east-1"
 }
@@ -12,4 +10,3 @@ resource "aws_s3_bucket" "mybucket" {
     Environment = "Dev"
   }
 }
-```
